@@ -5,7 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    <sourceDirectory>main/src/java</sourceDirectory>
+    <testSourceDirectory>test/src/java</testSourceDirectory>
     <finalName>${project.artifactId}</finalName>
    <plugins>
       <plugin>
